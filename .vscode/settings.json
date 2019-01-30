@@ -1,6 +1,0 @@
-{
-    "terminal.integrated.env.osx": {
-        "PATH": "/Users/vit.listik/.platformio/penv/bin:/Users/vit.listik/.platformio/penv:/usr/local/opt/node@8/bin:/usr/local/sbin:/Users/vit.listik/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/opt/X11/bin:/Users/vit.listik/.scli/bin",
-        "PLATFORMIO_CALLER": "vscode"
-    }
-}

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>eshisha</title>
+   </head>
+
+   <body>
+    <div id="form_container">
+
+    <form method="post" action="">
+      <h2>eshisha</h2>
+
+      <label for="message_type">Message Type </label>
+      <div>
+        <select id="message_type" name="message_type">
+          <option value="comment" selected="selected">Comment</option>
+          <option value="temperature" >Temperature</option>
+          <option value="new_session" >New Session</option>
+        </select>
+      </div>
+      <br>
+      <label class="description" for="message_text">Message Text </label>
+      <div>
+        <textarea id="message_text" name="message_text" cols=50 rows=10></textarea>
+      </div>
+
+        <input id="saveForm" type="submit" name="submit" value="Submit" />
+    </form>
+
+    </div>
+  </body>
+ </html>
